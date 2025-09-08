@@ -1,1 +1,2 @@
-# python_docker_trial
+# Python Docker Trial
+This repository created by Kei Imai, RN, MSN.
