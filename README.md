@@ -19,3 +19,11 @@ from my_modules_environment_setting.create_project_folders import create_project
 base_path = '/data'
 create_project_folders(base_path)
 "
+#【環境の削除】
+・Dockerイメージを削除
+docker rmi my-project
+・ディレクトリから親ディレクトリに戻る
+cd ..
+・ディレクトリを強制的に再帰的に削除
+rm -rf python_docker_trial
+
