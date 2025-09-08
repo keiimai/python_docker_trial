@@ -2,8 +2,11 @@
 This repository created by Kei Imai, RN, MSN.
 
 # 【格納されているファイルの説明】
-requirements.txt
-必要なライブラリを指定
+.gitignore
+Dockerfile
+README.md
+setup.py
+requirements.txt　必要なライブラリを指定
 
 # 【実行方法】
 ・クローンを作成
