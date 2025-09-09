@@ -19,7 +19,7 @@ ipywidgets>=8.1.2
 # DashはPlotlyに依存するため、通常は個別にインストールします。
 
 # データプロファイリング
-ydata-profiling>=4.6.0
+pandas-profiling==3.6.6
 
 # 機械学習ライブラリ
 catboost>=1.2.2
