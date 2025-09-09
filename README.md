@@ -45,17 +45,7 @@ docker build -t my-project .
 
 ・Dockerコンテナを実行
 
-docker run --rm -v "$(pwd)"/my_project:/data my-project python -c "
-
-import os
-
-from my_modules_environment_setting.create_project_folders import create_project_folders
-
-base_path = '/data'
-
-create_project_folders(base_path)
-
-"
+docker run -it --rm -p 8888:8888 -v "$(pwd)":/app my-project jupyter lab --ip=0.0.0.0 --allow-root --no-browser
 
 # 【環境の削除】
 ・Dockerイメージを削除
