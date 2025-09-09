@@ -37,7 +37,7 @@ git clone URL_HERE
 
 ・ディレクトリへ移動
 
-cd REPOSITORY
+cd REPOSITORY_NAME
 
 ・Dockerイメージをビルドする
 
