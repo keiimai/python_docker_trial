@@ -48,6 +48,12 @@ docker build -t my-project .
 docker run -it --rm -p 8888:8888 -v "$(pwd)":/app my-project jupyter lab --ip=0.0.0.0 --allow-root --no-browser
 
 # 【環境の削除】
+・Jupyter Labの終了
+
+Control + Cで終了させる、または
+
+docker psでコンテナIDを確認してdocker stop <コンテナID>を実行
+
 ・Dockerイメージを削除
 
 docker rmi my-project
