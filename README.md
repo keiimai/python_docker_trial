@@ -64,5 +64,4 @@ cd ..
 
 ・ディレクトリを強制的に再帰的に削除
 
-rm -rf python_docker_trial
-
+rm -rf REPOSITORY_NAME
