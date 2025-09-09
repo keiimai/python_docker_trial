@@ -2,15 +2,33 @@
 This repository created by Kei Imai, RN, MSN.
 
 # 【格納されているファイルの説明】
-.gitignore
+python_docker_trial/
 
-Dockerfile
+├── my_modules_environment_setting/
 
-README.md
+│   └── __init__.py
 
-setup.py
+│   └── create_project_folders.py
 
-requirements.txt　必要なライブラリを指定
+├── my_modules_data_visualization/
+
+│   └── __init__.py
+
+│   └── data_visualization_tools.py
+
+├── tests/
+
+│   ├── __init__.py
+
+│   └── test_project_folders.py
+
+├── Dockerfile
+
+├── .gitignore
+
+├── README.md
+
+└── requirements.txt
 
 # 【実行方法】
 ・クローンを作成
