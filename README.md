@@ -57,7 +57,7 @@ create_project_folders(base_path)
 
 "
 
-#【環境の削除】
+# 【環境の削除】
 ・Dockerイメージを削除
 
 docker rmi my-project
