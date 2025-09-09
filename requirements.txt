@@ -1,10 +1,46 @@
+# データフレーム操作
 polars>=0.20.25
 pandas>=2.2.1
+scikit-learn>=1.4.1
+
+# 数値計算と科学技術計算
 numpy>=1.26.4
 scipy>=1.13.0
-matplotlib>=3.8.3
-seaborn>=0.13.2
 
 # Jupyter Notebookの実行に必要なライブラリ
 jupyter
 notebook
+
+# データ可視化
+matplotlib>=3.8.3
+seaborn>=0.13.2
+plotly>=5.20.0
+ipywidgets>=8.1.2
+# DashはPlotlyに依存するため、通常は個別にインストールします。
+
+# データプロファイリング
+pandas-profiling>=4.6.0
+
+# 機械学習ライブラリ
+catboost>=1.2.2
+lightgbm>=4.3.0
+xgboost>=2.0.3
+imbalanced-learn>=0.12.2
+scikit-learn-intelex>=2024.0.0
+
+# ハイパーパラメータ最適化
+optuna>=3.5.0
+
+# モデル解釈
+shap>=0.45.0
+lime>=0.2.0.0
+
+# モデルの保存と読み込み
+joblib>=1.3.2
+
+# 深層学習（選択肢）
+# PyTorchを使用する場合：
+# torch>=2.2.1
+# torchvision>=0.17.1
+# TensorFlowを使用する場合：
+# tensorflow>=2.16.1
