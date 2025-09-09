@@ -38,6 +38,7 @@ base_path = '/data'
 create_project_folders(base_path)
 
 "
+
 #【環境の削除】
 ・Dockerイメージを削除
 
