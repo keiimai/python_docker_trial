@@ -2,6 +2,9 @@
 # これがコンテナのベースとなるOSとPython環境です。
 FROM python:3.10-slim
 
+# ビルドに必要なツール（C++コンパイラなど）をインストール
+RUN apt-get update && apt-get install -y build-essential
+
 # コンテナ内部の作業ディレクトリを設定します。
 # 以降のコマンドは、このディレクトリ内で実行されます。
 WORKDIR /app
